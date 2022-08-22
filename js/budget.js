@@ -27,19 +27,19 @@ function calculateCurrentTotalExpenses(elementId, newValue){
 }
 
 
-const currentPerPlayerValue = getInputFieldValueById('per-player-input');
-const currentTotalPlayersExpenses = currentPerPlayerValue * 5;
-
 document.getElementById('btn-calculate').addEventListener('click', function(){
 
     const currentPerPlayerValue = getInputFieldValueById('per-player-input');
     const currentTotalPlayersExpenses = currentPerPlayerValue * 5;
-    // const previousTotalExpenses = textExpenseField('total-players-exp');
-
 
     calculateCurrentTotalExpenses('total-players-exp', currentTotalPlayersExpenses);
   
+    if(isNaN(currentPerPlayerValue)){
 
+        alert("please provide a valid number");
+        return;
+
+    }
 
 })
 
@@ -60,5 +60,10 @@ document.getElementById('btn-calc-total').addEventListener('click', function(){
 
     calculateCurrentTotalExpenses('total-expense', totalExpense);
 
+    if(previousTotalExpenses != isNaN || totalManagerExpenses != isNaN || totalCoachExpenses != isNaN){
+
+        alert('please provide a valid number');
+        return;
+    }
 
 })
