@@ -32,42 +32,40 @@
         <section class="container">
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
-                  <div class="card h-100">
-                    <img src="images/messi.jpg" class="card-img-top h-75" alt="...">
-                    <div class="card-body bg-dark text-white">
-                      <h5 id="messi-name" class="card-title fw-bold">Lionel messi</h5>
-                      <p class="card-text">Lionel Messi, (born June 24, 1987, Rosario, Argentina), Argentine-born football player who was named (FIFA) world player of the year six times (2009–12, 2015, and 2019).</p>
-                    </div>
-                    <div>
-                        <div class="text-center bg-dark">
-                            <button id="messi-btn" class="px-5 bg-primary border border-0 text-white fw-bold py-2 mb-2">SELECT</button>
+                    <div class="card h-100">
+                      <img src="images/messi.jpg" class="card-img-top h-75" alt="...">
+                      <div class="card-body bg-dark text-white">
+                        <h1>Lionel Messi</h1>
+                        <div class="text-center">
+                            <button onclick="addToTable(this)" class="px-5 bg-primary border border-0 text-white fw-bold py-2">SELECT</button>
                         </div>
+                      </div>
                     </div>
+                  </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="card h-100">
+                        <img src="images/ronaldo.jpg" class="card-img-top h-75" alt="...">
+                        <div class="card-body bg-dark text-white">
+                          <h1>Cr7 Ronaldo</h1>
+                          <div class="text-center">
+                              <button onclick="addToTable(this)" class="px-5 bg-primary border border-0 text-white fw-bold py-2">SELECT</button>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src="images/ronaldo.jpg" class="card-img-top h-75" alt="...">
-                    <div class="card-body bg-dark text-white">
-                      <h5 id="ronaldo-name" class="card-title fw-bold">Cristiano Ronaldo</h5>
-                      <p class="card-text">Cristiano Ronaldo (born 5 February 1985) is a Portuguese professional footballer who plays as a forward for Premier League club Manchester United.</p>
-                    </div>
-                    <div class="text-center bg-dark">
-                        <button id="ronaldo-btn" class="px-5 bg-primary border border-0 text-white fw-bold py-2 mb-2">SELECT</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="images/neymar.jpg" class="card-img-top h-75" alt="...">
-                    <div class="card-body bg-dark text-white">
-                      <h5 id="neymar-name" class="card-title fw-bold">Neymar Jr.</h5>
-                      <p class="card-text">
-                        A prolific goalscorer and renowned playmaker, he is regarded as one of the best players in the world. Currently he's playing for PSG and Brazil national team.</p>
-                    </div>
-                    <div class="text-center bg-dark">
-                        <button id="neymar-btn" class="px-5 bg-primary border border-0 text-white fw-bold py-2 mb-2">SELECT</button>
-                    </div>
+                    <div class="card h-100">
+                        <img src="images/neymar.jpg" class="card-img-top h-75" alt="...">
+                        <div class="card-body bg-dark text-white">
+                          <h1>Neymar Jr</h1>
+                          <div class="text-center">
+                              <button onclick="addToTable(this)" class="px-5 bg-primary border border-0 text-white fw-bold py-2">SELECT</button>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
                 <div class="col">
@@ -92,40 +90,41 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
                   <div class="card h-100">
-                    <img src="images/karim-benze.jpg" class="card-img-top h-75" alt="...">
-                    <div class="card-body bg-dark text-white">
-                      <h5 id="messi-name" class="card-title fw-bold">Karim Benzema</h5>
-                      <p class="card-text">Karim Mostafa Benzema (born 19 December 1987) is a French professional footballer who plays as a striker for Spanish club Real Madrid and the France national team.</p>
-                    </div>
-                    <div>
-                        <div class="text-center bg-dark">
-                            <button id="karim-btn" class="px-5 bg-primary border border-0 text-white fw-bold py-2 mb-2">SELECT</button>
+                    <div class="card h-100">
+                        <img src="images/karim-benze.jpg" class="card-img-top h-75" alt="...">
+                        <div class="card-body bg-dark text-white">
+                          <h1>Benzema</h1>
+                          <div class="text-center">
+                              <button onclick="addToTable(this)" class="px-5 bg-primary border border-0 text-white fw-bold py-2">SELECT</button>
+                          </div>
                         </div>
-                    </div>
+                      </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src="images/salah.jpg" class="card-img-top h-75" alt="...">
-                    <div class="card-body bg-dark text-white">
-                      <h5 id="ronaldo-name" class="card-title fw-bold">Mohamed Salah</h5>
-                      <p class="card-text">Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional footballer who plays as a forward Liverpool and captains the Egypt national team.</p>
-                    </div>
-                    <div class="text-center bg-dark">
-                        <button id="salah-btn" class="px-5 bg-primary border border-0 text-white fw-bold py-2 mb-2">SELECT</button>
-                    </div>
+                    <div class="card h-100">
+                        <img src="images/salah.jpg" class="card-img-top h-75" alt="...">
+                        <div class="card-body bg-dark text-white">
+                          <h1>Mo Salah</h1>
+                          <div class="text-center">
+                              <button onclick="addToTable(this)" class="px-5 bg-primary border border-0 text-white fw-bold py-2">SELECT</button>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src="images/mbappe.jpg" class="card-img-top h-75" alt="...">
-                    <div class="card-body bg-dark text-white">
-                      <h5 id="neymar-name" class="card-title fw-bold">Kylian Mbappé</h5>
-                      <p class="card-text">Considered one of the best players in the world, and reportedly the highest-paid, Mbappé is renowned for his dribbling abilities, exceptional speed, and finishing</p>
-                    </div>
-                    <div class="text-center bg-dark">
-                        <button id="mbappe-btn" class="px-5 bg-primary border border-0 text-white fw-bold py-2 mb-2">SELECT</button>
-                    </div>
+                    <div class="card h-100">
+                        <img src="images/mbappe.jpg" class="card-img-top h-75" alt="...">
+                        <div class="card-body bg-dark text-white">
+                          <h1>Mbappe</h1>
+                          <div class="text-center">
+                              <button onclick="addToTable(this)" class="px-5 bg-primary border border-0 text-white fw-bold py-2">SELECT</button>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
                 <div class="col">
@@ -134,7 +133,7 @@
                       <h1 class="text-white fw-bold">Budget</h1>
                       <div class="d-flex text-white">
                         <p class="">per player</p>
-                        <input class="w-50 h-25 ms-4" type="text">
+                        <input class="w-50 h-25 ms-4" type="text" placeholder="1000">
                       </div>
                       <div class="text-center text-white fw-bold mt-1">
                         <button type="button" class="btn btn-primary px-5">Calculate</button>
@@ -145,18 +144,18 @@
                       </div>
                       <div class="d-flex text-white">
                         <p class="me-4">manager</p>
-                        <input class="w-50 h-25 " type="text">
+                        <input class="w-50 h-25 " type="text" placeholder="2000">
                       </div>
                       <div class="d-flex text-white">
                         <p class="me-5">coach</p>
-                        <input class="w-50 h-25" type="text">
+                        <input class="w-50 h-25" type="text" placeholder="400">
                       </div>
                       <div class="text-center text-white fw-bold mt-1">
                         <button type="button" class="btn btn-primary px-5">Calculate</button>
                       </div>
                       <div class="d-flex text-white mt-4">
                         <p class="me-2">player expenses</p>
-                        <p class="ms-5 text-danger">$<span>5000</span></p>
+                        <p class="ms-5 text-danger">$<span>11000</span></p>
                       </div>
                     </div>
                   </div>
@@ -173,5 +172,9 @@
         <p class="text-white text-center p-4">Copyright @ 2022 All Rights Reserved.</p>
     </footer>
     <!-- footer section end -->
+
+    <!-- addeded script to connect with budget.js -->
+    <script src="js/selected.js"></script>
+    <script src="js/budget.js"></script>
 </body>
 </html>
