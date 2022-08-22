@@ -72,12 +72,12 @@
                   <div class="card h-50">
                     <div class="card-body bg-dark text-white">
                         <h1 class="fw-bold">Selected V</h1>
-                        <ul class="list-group">
-                            <li class="list-group-item text-white bg-dark"><span class="text-secondary">1. </span><span id="list-1">lionel Messi</span></li>
+                        <ul id="selected-players-list" class="list-group">
+                            <!-- <li class="list-group-item text-white bg-dark"><span class="text-secondary">1. </span><span id="list-1">lionel Messi</span></li>
                             <li class="list-group-item text-white bg-dark"><span class="text-secondary">2. </span><span id="list-2">Christiano Ronaldo</span></li>
                             <li class="list-group-item text-white bg-dark"><span class="text-secondary">3. </span><span id="list-3">Neymar Jr.</span></li>
                             <li class="list-group-item text-white bg-dark"><span class="text-secondary">4. </span><span id="list-3">Mohamed Salah</span></li>
-                            <li class="list-group-item text-white bg-dark"><span class="text-secondary">5. </span><span id="list-4">Karim Benzema</span></li>
+                            <li class="list-group-item text-white bg-dark"><span class="text-secondary">5. </span><span id="list-4">Karim Benzema</span></li> -->
                         </ul>
                     </div>
                   </div>
@@ -133,10 +133,10 @@
                       <h1 class="text-white fw-bold">Budget</h1>
                       <div class="d-flex text-white">
                         <p class="">per player</p>
-                        <input class="w-50 h-25 ms-4" type="text" placeholder="1000">
+                        <input id="per-player-input" class="w-50 h-25 ms-4" type="text" placeholder="1000">
                       </div>
                       <div class="text-center text-white fw-bold mt-1">
-                        <button type="button" class="btn btn-primary px-5">Calculate</button>
+                        <button id="btn-calculate" type="button" class="btn btn-primary px-5">Calculate</button>
                       </div>
                       <div class="d-flex text-white mt-2">
                         <p>player expenses</p>
@@ -151,7 +151,7 @@
                         <input class="w-50 h-25" type="text" placeholder="400">
                       </div>
                       <div class="text-center text-white fw-bold mt-1">
-                        <button type="button" class="btn btn-primary px-5">Calculate</button>
+                        <button type="button" class="btn btn-primary px-5">Calculate Total</button>
                       </div>
                       <div class="d-flex text-white mt-4">
                         <p class="me-2">player expenses</p>

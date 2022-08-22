@@ -2,14 +2,20 @@ const playerArray = [];
 
 function display(player){
 
+    const tableBody = document.getElementById('selected-players-list');
+    tableBody.innerHTML = "";
+
     for(let i = 0; i < player.length; i++){
 
         const name = playerArray[i].name;
+        const li = document.createElement('li');
+            li.innerHTML= `
+            <th>${i + 1}</th>
+            <td>${name}</td>
 
-        console.log(playerArray[i].name);
+            `;
+            tableBody.appendChild(li);
     }
-
-
 }
 
 function addToTable(element){
