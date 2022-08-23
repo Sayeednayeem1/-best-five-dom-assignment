@@ -60,7 +60,7 @@ document.getElementById('btn-calc-total').addEventListener('click', function(){
 
     calculateCurrentTotalExpenses('total-expense', totalExpense);
 
-    if(previousTotalExpenses != isNaN || totalManagerExpenses != isNaN || totalCoachExpenses != isNaN){
+    if(isNaN(totalManagerExpenses) || isNaN(totalCoachExpenses)){
 
         alert('please provide a valid number');
         return;
